@@ -2,6 +2,7 @@ import { Component } from '@angular/core';
 import { MatButtonModule } from '@angular/material/button';
 import { MatIconModule } from '@angular/material/icon';
 import { MatToolbarModule } from '@angular/material/toolbar';
+import { RouterModule } from '@angular/router';
 import { ButtonListComponent } from './button-list/button-list.component';
 
 @Component({
@@ -11,6 +12,7 @@ import { ButtonListComponent } from './button-list/button-list.component';
   imports: [
    // CommonModule,
     // BrowserAnimationsModule,
+    RouterModule,
     MatButtonModule,
     MatIconModule,
     MatToolbarModule,
@@ -19,5 +21,6 @@ import { ButtonListComponent } from './button-list/button-list.component';
   standalone: true,
 })
 export class AppComponent {
-  title = 'angular-standalone-components-app';
+  // title = 'Angular Standalone Components App';
+  protected title = 'A S C A'
 }

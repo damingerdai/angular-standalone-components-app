@@ -2,8 +2,10 @@
   <button mat-icon-button class="" aria-label="Example icon-button with menu icon">
    <mat-icon>menu</mat-icon>
  </button>
- <span>Angular Standalone Components App</span>
+ <span>{{title}}</span>
+ <a mat-button routerLink="button"> Button List </a>
  <span class="spacer"></span>
+
  <button mat-icon-button class=" favorite-icon" aria-label="Example icon-button with heart icon">
    <mat-icon>favorite</mat-icon>
  </button>
@@ -11,4 +13,4 @@
   <mat-icon>share</mat-icon>
 </button>
 </mat-toolbar>
-<app-button-list></app-button-list>
+<router-outlet></router-outlet>
