@@ -4,6 +4,7 @@ import { MatIconModule } from '@angular/material/icon';
 import { MatToolbarModule } from '@angular/material/toolbar';
 import { RouterModule } from '@angular/router';
 import { ButtonListComponent } from './button-list/button-list.component';
+import { ChipListComponent } from './chip-list/chip-list.component';
 
 @Component({
   selector: 'app-root',
@@ -17,6 +18,7 @@ import { ButtonListComponent } from './button-list/button-list.component';
     MatIconModule,
     MatToolbarModule,
     ButtonListComponent,
+    ChipListComponent,
   ],
   standalone: true,
 })
