@@ -12,6 +12,7 @@ npm start
 
 Navigate to `http://localhost:4200/`
 
-# Demo
+# Post and Demo
 
+[Post](https://damingerdai.github.io/front-end/angular-standalone-components-app/)
 [Online demo](https://damingerdai.github.io/angular-standalone-components-app/)
