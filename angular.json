@@ -105,6 +105,14 @@
             ],
             "scripts": []
           }
+        },
+        "deploy": {
+          "builder": "angular-cli-ghpages:deploy",
+          "options": {
+            "baseHref": "https://damingerdai.github.io/angular-standalone-components-app/",
+            "name": "Angular StandaloneComponents App",
+            "email": "mingguobin@live.com"
+          }
         }
       }
     }
