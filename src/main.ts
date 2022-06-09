@@ -4,6 +4,7 @@ import { bootstrapApplication } from '@angular/platform-browser';
 import { Route, RouterModule } from '@angular/router';
 
 import { AppComponent } from './app/app.component';
+import { HomeComponent } from './app/home/home.component';
 import { PhotosService } from './app/services/photos.service';
 import { environment } from './environments/environment';
 
@@ -12,6 +13,19 @@ if (environment.production) {
 }
 
 const ROUTES: Route[] = [
+  {
+    path: '',
+    pathMatch: 'full',
+    redirectTo: 'home'
+  },
+  {
+    path: 'home',
+    component: HomeComponent
+    // loadComponent: () =>
+    //   import('./app/home/home.component').then(
+    //     (mod) => mod.HomeComponent
+    //   ),
+  },
   {
     path: 'button',
     loadComponent: () =>

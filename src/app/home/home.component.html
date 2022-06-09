@@ -1,0 +1,9 @@
+<div class="center">
+  <h1 class="headline">Hi, this is Angular Standalone Components Application</h1>
+  <mat-divider></mat-divider>
+  <mat-nav-list class="list">
+    <mat-list-item *ngFor="let link of links">
+       <a matLine (click)="to(link.url)">{{ link.name }} </a>
+    </mat-list-item>
+  </mat-nav-list>
+</div>

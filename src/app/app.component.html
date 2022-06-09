@@ -8,12 +8,17 @@
  <a mat-button routerLink="photo"> Photo List </a>
  <span class="spacer"></span>
 
- <button mat-icon-button class=" favorite-icon" aria-label="Example icon-button with heart icon">
-   <mat-icon>favorite</mat-icon>
- </button>
- <button mat-icon-button class="" aria-label="Example icon-button with share icon">
-  <mat-icon>share</mat-icon>
-</button>
+ <a
+    mat-icon-button
+    href="https://github.com/damingerdai/angular-standalone-components-app"
+    aria-label="GitHub Repository"
+  >
+    <img
+      class="github"
+      src="assets/img/github-circle-white-transparent.svg"
+      alt="angular-standalone-components-app"
+    />
+  </a>
 </mat-toolbar>
 <section class="content">
   <router-outlet></router-outlet>
