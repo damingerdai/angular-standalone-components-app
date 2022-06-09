@@ -1,3 +1,4 @@
+import { HttpClientModule } from '@angular/common/http';
 import { Component } from '@angular/core';
 import { MatButtonModule } from '@angular/material/button';
 import { MatIconModule } from '@angular/material/icon';
@@ -24,5 +25,5 @@ import { ChipListComponent } from './chip-list/chip-list.component';
 })
 export class AppComponent {
   // title = 'Angular Standalone Components App';
-  protected title = 'A S C A'
+  protected title = 'Angular'
 }
