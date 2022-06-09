@@ -10,6 +10,6 @@ export class PhotosService {
   ) { }
 
   public getPhotoUrl(i: number): string {
-    return `https://picsum.photos/200/300?random=${i}`;
+    return `${this.photoUrl}/200/300?random=${i}`;
   }
 }

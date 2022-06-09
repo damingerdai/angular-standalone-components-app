@@ -53,10 +53,10 @@ bootstrapApplication(AppComponent, {
   providers: [
     {
       provide: 'photoUrl',
-      useValue: 'http://localhost:4200/heros',
+      useValue: 'https://picsum.photos',
     },
     {provide: PhotosService, useClass: PhotosService },
     importProvidersFrom(RouterModule.forRoot([...ROUTES])),
     importProvidersFrom(HttpClientModule)
   ],
-});
+}).catch(err => console.error(err));
