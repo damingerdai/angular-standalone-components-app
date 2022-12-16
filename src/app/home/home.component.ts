@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { MatDividerModule} from '@angular/material/divider';
-import { MatListModule } from '@angular/material/list'
+import { MatLegacyListModule as MatListModule } from '@angular/material/legacy-list'
 import { Router, RouterModule } from '@angular/router';
 
 @Component({

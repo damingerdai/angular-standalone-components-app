@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { MatChipsModule } from '@angular/material/chips'
+import { MatLegacyChipsModule as MatChipsModule } from '@angular/material/legacy-chips'
 
 @Component({
   selector: 'app-chip-list',

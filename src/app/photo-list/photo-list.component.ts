@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { MatCardModule } from '@angular/material/card';
+import { MatLegacyCardModule as MatCardModule } from '@angular/material/legacy-card';
 import { MatGridListModule } from '@angular/material/grid-list'
 import { PhotosService } from '../services/photos.service';
 import { forkJoin, map, of } from 'rxjs';
