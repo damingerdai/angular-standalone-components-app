@@ -11,7 +11,7 @@ import { ChipListComponent } from './chip-list/chip-list.component';
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.scss'],
   imports: [
-   // CommonModule,
+    // CommonModule,
     // BrowserAnimationsModule,
     RouterModule,
     MatButtonModule,
@@ -23,6 +23,7 @@ import { ChipListComponent } from './chip-list/chip-list.component';
   standalone: true,
 })
 export class AppComponent {
-  // title = 'Angular Standalone Components App';
-  protected title = 'Angular'
+  protected title = 'Angular';
+
+  constructor() {}
 }
