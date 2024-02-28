@@ -1,7 +1,4 @@
 <mat-toolbar color="primary">
-  <!-- <button mat-icon-button class="" aria-label="Example icon-button with menu icon">
-   <mat-icon>menu</mat-icon>
- </button> -->
   <a mat-button routerLink="/"> {{ title }} </a>
   <a mat-button routerLink="button"> Button List </a>
   <a mat-button routerLink="chip"> Chip List </a>
@@ -20,6 +17,7 @@
     />
   </a>
 </mat-toolbar>
+<mat-divider></mat-divider>
 <section class="content">
   <router-outlet></router-outlet>
 </section>

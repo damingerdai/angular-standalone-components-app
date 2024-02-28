@@ -5,6 +5,7 @@ import { MatToolbarModule } from '@angular/material/toolbar';
 import { RouterModule } from '@angular/router';
 import { ButtonListComponent } from './button-list/button-list.component';
 import { ChipListComponent } from './chip-list/chip-list.component';
+import { MatDividerModule } from '@angular/material/divider';
 
 @Component({
   selector: 'app-root',
@@ -17,6 +18,7 @@ import { ChipListComponent } from './chip-list/chip-list.component';
     MatButtonModule,
     MatIconModule,
     MatToolbarModule,
+    MatDividerModule,
     ButtonListComponent,
     ChipListComponent,
   ],
